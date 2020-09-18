@@ -2,13 +2,13 @@ from area import Area
 from zodiaco import Zodiaco
 from euler import Euler
 
-
-print("1. Calcular areas")
-print("2. Saber signo Zodiacal")
-print("3. Numero e")
-opc = input("Elige una opcion: ")
-
 while True:
+    print("1. Calcular areas")
+    print("2. Saber signo Zodiacal")
+    print("3. Numero e")
+    opc = input("Elige una opcion: ")
+
+
     if opc == "1":
         a = Area()
         while True:
